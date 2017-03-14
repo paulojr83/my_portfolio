@@ -1,0 +1,19 @@
+.col-4{
+    width: 100%;
+}
+
+.header-logo{
+    width: 25%;
+}
+
+.title-profile{
+    width: 75%;
+}
+
+.first, .secunder{
+    width: 50%;
+}
+
+.third{
+    width: 100%;
+}
