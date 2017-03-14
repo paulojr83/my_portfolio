@@ -63,7 +63,7 @@ h2{
 .container {    
     margin: 0 auto;
     max-width: 950px;
-    min-width: 450px;
+    min-width: 375px;
 }
 
 img {
@@ -154,4 +154,10 @@ hr{
 
 .first,.secunder,.third{
     text-align: center;
+}
+
+@media screen and (max-width:375px){
+    h1{
+        font-size: 2em;
+    }
 }
