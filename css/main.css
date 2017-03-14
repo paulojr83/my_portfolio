@@ -156,7 +156,7 @@ hr{
     text-align: center;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:414px){
     h1{
         font-size: 2em;
     }
