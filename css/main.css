@@ -24,6 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1.4; 
 }
@@ -36,8 +37,11 @@ body {
 } 
 
 
-h1, h2, h3, h4 {
-	font-family: 'Gotham', sans-serif;
+h1, 
+h2, 
+h3, 
+h4 {
+	font-family: "Gotham", sans-serif;
 	margin: 0;
 }
 
@@ -47,14 +51,14 @@ h1 {
 	font-size: 3em;
 }
 
-h2{
+h2 {
     color: #7d97ad;
     font-weight: 300;
     font-size: 2em;
     margin-left: 20px;
 }
 
-.col-4 h2{
+.col-4 h2 {
     text-align: center;
     text-transform: uppercase;
     color: #2d3c49;
@@ -74,30 +78,32 @@ figure {
   margin: 1em 0 1em 0;
 }
 
-.title-profile{
+.title-profile {
     margin-top: 10px;
     text-align: right;
     text-transform: uppercase;    
 }
 
-.a-link{
+.a-link {
     text-decoration: none;
     color: #2d3c49;    
 }
-hr{
+
+hr {
     border-top: 4px solid #7d97ad;
 }
 
-.col-4 figure{
+.col-4 figure {
     margin-right: 10px;
 }
 
-.logo{
+.logo {
     width: 70px;
     height: 70px;
     margin: 10px;        
 }
-.row {
+
+.row  {
     width: 100%;    
     display: flex;
     flex-wrap: wrap;
@@ -151,13 +157,14 @@ hr{
     width: 100%;
 }
 
-
-.first,.secunder,.third{
+.first,
+.secunder,
+.third {
     text-align: center;
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:375px) {
     h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
